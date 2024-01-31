@@ -2,7 +2,7 @@ $(function () {
     sessionStorage.setItem('imui-side-menu-state', 'HIDE');
     $('#side-show').on('click');
     $('#imbox_right').css({
-        position: fixed,
+        position: 'fixed',
         left: '60%'
     });
     $('#GroupBoxMenu').css('position', 'fixed');
